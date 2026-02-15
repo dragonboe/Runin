@@ -1,0 +1,17 @@
+// Example config. Adjust paths to match your setup.
+{
+    "groups": {
+        "work": [
+            "~/projects/work/*",
+            "~/projects/clients/*"
+        ],
+        "personal": [
+            "~/sideprojects/*",
+            "~/dotfiles"
+        ],
+        "all": [
+            "group:work",
+            "group:personal"
+        ]
+    }
+}
